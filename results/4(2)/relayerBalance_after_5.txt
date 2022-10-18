@@ -1,0 +1,36 @@
+getting relayer balance at node 0......
+balances:
+- amount: "100000000000"
+  denom: samoleans
+- amount: "99997925031"
+  denom: stake
+pagination:
+  next_key: null
+  total: "0"
+getting relayer balance at node 1......
+balances:
+- amount: "100000000000"
+  denom: samoleans
+- amount: "99997158076"
+  denom: stake
+pagination:
+  next_key: null
+  total: "0"
+getting relayer balance at node 2......
+balances:
+- amount: "100000000000"
+  denom: samoleans
+- amount: "99997717671"
+  denom: stake
+pagination:
+  next_key: null
+  total: "0"
+getting relayer balance at node 3......
+balances:
+- amount: "100000000000"
+  denom: samoleans
+- amount: "99998152682"
+  denom: stake
+pagination:
+  next_key: null
+  total: "0"

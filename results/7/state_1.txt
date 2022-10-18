@@ -1,0 +1,63 @@
+querying state for node 0...
+data:
+  Done:
+    block_height: 2959
+    decided_timestamp: "1665627952529598797"
+    decided_val: eyJyZWdpc3Rlcl90YiI6eyJuYW1lIjoidGVzdF9mcm9tX3RydXN0Ym9vc3Rfc2VwdCJ9fQ==
+    minutes_duration: 0
+    seconds_duration: 59
+    start_time: "1665627893280697228"
+querying state for node 1...
+data:
+  Done:
+    block_height: 2960
+    decided_timestamp: "1665627963211545037"
+    decided_val: eyJyZWdpc3Rlcl90YiI6eyJuYW1lIjoidGVzdF9mcm9tX3RydXN0Ym9vc3Rfc2VwdCJ9fQ==
+    minutes_duration: 2
+    seconds_duration: 162
+    start_time: "1665627801959687170"
+querying state for node 2...
+data:
+  Done:
+    block_height: 2945
+    decided_timestamp: "1665627958324510160"
+    decided_val: eyJyZWdpc3Rlcl90YiI6eyJuYW1lIjoidGVzdF9mcm9tX3RydXN0Ym9vc3Rfc2VwdCJ9fQ==
+    minutes_duration: 2
+    seconds_duration: 142
+    start_time: "1665627816459393290"
+querying state for node 3...
+data:
+  Done:
+    block_height: 2936
+    decided_timestamp: "1665627958460081943"
+    decided_val: eyJyZWdpc3Rlcl90YiI6eyJuYW1lIjoidGVzdF9mcm9tX3RydXN0Ym9vc3Rfc2VwdCJ9fQ==
+    minutes_duration: 2
+    seconds_duration: 127
+    start_time: "1665627831861865422"
+querying state for node 4...
+data:
+  Done:
+    block_height: 2856
+    decided_timestamp: "1665627958063535843"
+    decided_val: eyJyZWdpc3Rlcl90YiI6eyJuYW1lIjoidGVzdF9mcm9tX3RydXN0Ym9vc3Rfc2VwdCJ9fQ==
+    minutes_duration: 1
+    seconds_duration: 111
+    start_time: "1665627847739238740"
+querying state for node 5...
+data:
+  Done:
+    block_height: 2002
+    decided_timestamp: "1665627956372711777"
+    decided_val: eyJyZWdpc3Rlcl90YiI6eyJuYW1lIjoidGVzdF9mcm9tX3RydXN0Ym9vc3Rfc2VwdCJ9fQ==
+    minutes_duration: 1
+    seconds_duration: 94
+    start_time: "1665627862411804919"
+querying state for node 6...
+data:
+  Done:
+    block_height: 2204
+    decided_timestamp: "1665627957658195933"
+    decided_val: eyJyZWdpc3Rlcl90YiI6eyJuYW1lIjoidGVzdF9mcm9tX3RydXN0Ym9vc3Rfc2VwdCJ9fQ==
+    minutes_duration: 1
+    seconds_duration: 79
+    start_time: "1665627878019606961"

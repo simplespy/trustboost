@@ -1,0 +1,36 @@
+querying state for node 0...
+data:
+  Done:
+    block_height: 1926
+    decided_timestamp: "1665687764506834310"
+    decided_val: eyJyZWdpc3Rlcl90YiI6eyJuYW1lIjoidGVzdF9mcm9tX3RydXN0Ym9vc3Rfc2VwdCJ9fQ==
+    minutes_duration: 0
+    seconds_duration: 39
+    start_time: "1665687725693605011"
+querying state for node 1...
+data:
+  Done:
+    block_height: 1923
+    decided_timestamp: "1665687770754381097"
+    decided_val: eyJyZWdpc3Rlcl90YiI6eyJuYW1lIjoidGVzdF9mcm9tX3RydXN0Ym9vc3Rfc2VwdCJ9fQ==
+    minutes_duration: 1
+    seconds_duration: 91
+    start_time: "1665687679843898407"
+querying state for node 2...
+data:
+  Done:
+    block_height: 1910
+    decided_timestamp: "1665687766818718736"
+    decided_val: eyJyZWdpc3Rlcl90YiI6eyJuYW1lIjoidGVzdF9mcm9tX3RydXN0Ym9vc3Rfc2VwdCJ9fQ==
+    minutes_duration: 1
+    seconds_duration: 72
+    start_time: "1665687694475213916"
+querying state for node 3...
+data:
+  Done:
+    block_height: 1904
+    decided_timestamp: "1665687770860604657"
+    decided_val: eyJyZWdpc3Rlcl90YiI6eyJuYW1lIjoidGVzdF9mcm9tX3RydXN0Ym9vc3Rfc2VwdCJ9fQ==
+    minutes_duration: 1
+    seconds_duration: 61
+    start_time: "1665687709645060342"

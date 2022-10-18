@@ -1,0 +1,90 @@
+getting user balance at node 0......
+balances:
+- amount: "100000000000"
+  denom: samoleans
+- amount: "99999262141"
+  denom: stake
+pagination:
+  next_key: null
+  total: "0"
+getting user balance at node 1......
+balances:
+- amount: "100000000000"
+  denom: samoleans
+- amount: "99999285286"
+  denom: stake
+pagination:
+  next_key: null
+  total: "0"
+getting user balance at node 2......
+balances:
+- amount: "100000000000"
+  denom: samoleans
+- amount: "99999255274"
+  denom: stake
+pagination:
+  next_key: null
+  total: "0"
+getting user balance at node 3......
+balances:
+- amount: "100000000000"
+  denom: samoleans
+- amount: "99999251720"
+  denom: stake
+pagination:
+  next_key: null
+  total: "0"
+getting user balance at node 4......
+balances:
+- amount: "100000000000"
+  denom: samoleans
+- amount: "99999248006"
+  denom: stake
+pagination:
+  next_key: null
+  total: "0"
+getting user balance at node 5......
+balances:
+- amount: "100000000000"
+  denom: samoleans
+- amount: "99999244653"
+  denom: stake
+pagination:
+  next_key: null
+  total: "0"
+getting user balance at node 6......
+balances:
+- amount: "100000000000"
+  denom: samoleans
+- amount: "99999241146"
+  denom: stake
+pagination:
+  next_key: null
+  total: "0"
+getting user balance at node 7......
+balances:
+- amount: "100000000000"
+  denom: samoleans
+- amount: "99999237742"
+  denom: stake
+pagination:
+  next_key: null
+  total: "0"
+getting user balance at node 8......
+balances:
+- amount: "100000000000"
+  denom: samoleans
+- amount: "99999235675"
+  denom: stake
+pagination:
+  next_key: null
+  total: "0"
+getting user balance at node 9......
+balances:
+- amount: "100000000000"
+  denom: samoleans
+- amount: "99999232059"
+  denom: stake
+pagination:
+  next_key: null
+  total: "0"

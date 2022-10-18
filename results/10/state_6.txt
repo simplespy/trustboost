@@ -1,0 +1,90 @@
+querying state for node 0...
+data:
+  Done:
+    block_height: 37764
+    decided_timestamp: "1665671758955027011"
+    decided_val: eyJyZWdpc3Rlcl90YiI6eyJuYW1lIjoidGVzdF9mcm9tX3RydXN0Ym9vc3Rfc2VwdCJ9fQ==
+    minutes_duration: 1
+    seconds_duration: 100
+    start_time: "1665671658783397454"
+querying state for node 1...
+data:
+  Done:
+    block_height: 37611
+    decided_timestamp: "1665671756121669390"
+    decided_val: eyJyZWdpc3Rlcl90YiI6eyJuYW1lIjoidGVzdF9mcm9tX3RydXN0Ym9vc3Rfc2VwdCJ9fQ==
+    minutes_duration: 3
+    seconds_duration: 234
+    start_time: "1665671522155119951"
+querying state for node 2...
+data:
+  Done:
+    block_height: 37746
+    decided_timestamp: "1665671758057852101"
+    decided_val: eyJyZWdpc3Rlcl90YiI6eyJuYW1lIjoidGVzdF9mcm9tX3RydXN0Ym9vc3Rfc2VwdCJ9fQ==
+    minutes_duration: 3
+    seconds_duration: 221
+    start_time: "1665671537275665844"
+querying state for node 3...
+data:
+  Done:
+    block_height: 37731
+    decided_timestamp: "1665671753739912585"
+    decided_val: eyJyZWdpc3Rlcl90YiI6eyJuYW1lIjoidGVzdF9mcm9tX3RydXN0Ym9vc3Rfc2VwdCJ9fQ==
+    minutes_duration: 3
+    seconds_duration: 201
+    start_time: "1665671552501966205"
+querying state for node 4...
+data:
+  Done:
+    block_height: 37723
+    decided_timestamp: "1665671753935918229"
+    decided_val: eyJyZWdpc3Rlcl90YiI6eyJuYW1lIjoidGVzdF9mcm9tX3RydXN0Ym9vc3Rfc2VwdCJ9fQ==
+    minutes_duration: 3
+    seconds_duration: 186
+    start_time: "1665671567936381216"
+querying state for node 5...
+data:
+  Done:
+    block_height: 37595
+    decided_timestamp: "1665671765483368553"
+    decided_val: eyJyZWdpc3Rlcl90YiI6eyJuYW1lIjoidGVzdF9mcm9tX3RydXN0Ym9vc3Rfc2VwdCJ9fQ==
+    minutes_duration: 3
+    seconds_duration: 183
+    start_time: "1665671582528650026"
+querying state for node 6...
+data:
+  Done:
+    block_height: 37708
+    decided_timestamp: "1665671758722143999"
+    decided_val: eyJyZWdpc3Rlcl90YiI6eyJuYW1lIjoidGVzdF9mcm9tX3RydXN0Ym9vc3Rfc2VwdCJ9fQ==
+    minutes_duration: 2
+    seconds_duration: 160
+    start_time: "1665671598348401556"
+querying state for node 7...
+data:
+  Done:
+    block_height: 37695
+    decided_timestamp: "1665671754414322087"
+    decided_val: eyJyZWdpc3Rlcl90YiI6eyJuYW1lIjoidGVzdF9mcm9tX3RydXN0Ym9vc3Rfc2VwdCJ9fQ==
+    minutes_duration: 2
+    seconds_duration: 141
+    start_time: "1665671613432777184"
+querying state for node 8...
+data:
+  Done:
+    block_height: 37689
+    decided_timestamp: "1665671761157789834"
+    decided_val: eyJyZWdpc3Rlcl90YiI6eyJuYW1lIjoidGVzdF9mcm9tX3RydXN0Ym9vc3Rfc2VwdCJ9fQ==
+    minutes_duration: 2
+    seconds_duration: 133
+    start_time: "1665671628340316636"
+querying state for node 9...
+data:
+  Done:
+    block_height: 37694
+    decided_timestamp: "1665671773929677850"
+    decided_val: eyJyZWdpc3Rlcl90YiI6eyJuYW1lIjoidGVzdF9mcm9tX3RydXN0Ym9vc3Rfc2VwdCJ9fQ==
+    minutes_duration: 2
+    seconds_duration: 129
+    start_time: "1665671644219301143"

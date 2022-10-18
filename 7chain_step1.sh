@@ -1,0 +1,70 @@
+#!/bin/bash
+# two-chainz creates two wasmd chains and configures the relayer to 
+
+SCRIPTDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+WASMD_DATA="$(pwd)/data"
+RELAYER_DIR="$(dirname $SCRIPTDIR)"
+RELAYER_CONF="$HOME/.relayer"
+
+# Ensure wasmd is installed
+if ! [ -x "$(which wasmd)" ]; then
+  echo "Error: wasmd is not installed. Try running 'make build-wasmd'" >&2
+  exit 1
+fi
+
+# Display software version for testers
+echo "WASMD VERSION INFO:"
+wasmd version --long
+
+# Ensure jq is installed
+if [[ ! -x "$(which jq)" ]]; then
+  echo "jq (a tool for parsing json in the command line) is required..."
+  echo "https://stedolan.github.io/jq/download/"
+  exit 1
+fi
+
+# Ensure user understands what will be deleted
+if [[ -d $WASMD_DATA ]] && [[ ! "$1" == "skip" ]]; then
+  read -p "$(basename $0) will delete \$(pwd)/data and \$HOME/.relayer folders. Do you wish to continue? (y/n): " -n 1 -r
+  echo
+  if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+      exit 1
+  fi
+fi
+
+# Delete data from old runs
+rm -rf $WASMD_DATA &> /dev/null
+rm -rf $RELAYER_CONF &> /dev/null
+
+# Stop existing wasmd processes
+echo "killing all wasmd processes, wait....."
+killall wasmd &> /dev/null
+
+set -e
+
+chainid0=ibc-0
+chainid1=ibc-1
+chainid2=ibc-2
+chainid3=ibc-3
+chainid4=ibc-4
+chainid5=ibc-5
+chainid6=ibc-6
+
+echo "Generating WASMD configurations..."
+mkdir -p $WASMD_DATA && cd $WASMD_DATA && cd ../
+./one-chain wasmd $chainid0 ./data 26550 26660 6060 9090
+./one-chain wasmd $chainid1 ./data 26551 26661 6061 9091
+./one-chain wasmd $chainid2 ./data 26552 26662 6062 9092
+./one-chain wasmd $chainid3 ./data 26553 26663 6063 9093
+./one-chain wasmd $chainid4 ./data 26554 26664 6064 9094
+./one-chain wasmd $chainid5 ./data 26555 26665 6065 9095
+./one-chain wasmd $chainid6 ./data 26556 26666 6066 9096
+
+
+[ -f $WASMD_DATA/$chainid0.log ] && echo "$chainid0 initialized. Watch file $WASMD_DATA/$chainid0.log to see its execution."
+[ -f $WASMD_DATA/$chainid1.log ] && echo "$chainid1 initialized. Watch file $WASMD_DATA/$chainid1.log to see its execution."
+[ -f $WASMD_DATA/$chainid2.log ] && echo "$chainid2 initialized. Watch file $WASMD_DATA/$chainid2.log to see its execution."
+[ -f $WASMD_DATA/$chainid3.log ] && echo "$chainid3 initialized. Watch file $WASMD_DATA/$chainid3.log to see its execution."
+[ -f $WASMD_DATA/$chainid4.log ] && echo "$chainid4 initialized. Watch file $WASMD_DATA/$chainid4.log to see its execution."
+[ -f $WASMD_DATA/$chainid5.log ] && echo "$chainid5 initialized. Watch file $WASMD_DATA/$chainid5.log to see its execution."
+[ -f $WASMD_DATA/$chainid6.log ] && echo "$chainid6 initialized. Watch file $WASMD_DATA/$chainid6.log to see its execution."

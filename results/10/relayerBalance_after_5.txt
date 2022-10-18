@@ -1,0 +1,90 @@
+getting relayer balance at node 0......
+balances:
+- amount: "100000000000"
+  denom: samoleans
+- amount: "99995051945"
+  denom: stake
+pagination:
+  next_key: null
+  total: "0"
+getting relayer balance at node 1......
+balances:
+- amount: "100000000000"
+  denom: samoleans
+- amount: "99991502000"
+  denom: stake
+pagination:
+  next_key: null
+  total: "0"
+getting relayer balance at node 2......
+balances:
+- amount: "100000000000"
+  denom: samoleans
+- amount: "99993895710"
+  denom: stake
+pagination:
+  next_key: null
+  total: "0"
+getting relayer balance at node 3......
+balances:
+- amount: "100000000000"
+  denom: samoleans
+- amount: "99993975266"
+  denom: stake
+pagination:
+  next_key: null
+  total: "0"
+getting relayer balance at node 4......
+balances:
+- amount: "100000000000"
+  denom: samoleans
+- amount: "99993970934"
+  denom: stake
+pagination:
+  next_key: null
+  total: "0"
+getting relayer balance at node 5......
+balances:
+- amount: "100000000000"
+  denom: samoleans
+- amount: "99993983935"
+  denom: stake
+pagination:
+  next_key: null
+  total: "0"
+getting relayer balance at node 6......
+balances:
+- amount: "100000000000"
+  denom: samoleans
+- amount: "99994121955"
+  denom: stake
+pagination:
+  next_key: null
+  total: "0"
+getting relayer balance at node 7......
+balances:
+- amount: "100000000000"
+  denom: samoleans
+- amount: "99994111039"
+  denom: stake
+pagination:
+  next_key: null
+  total: "0"
+getting relayer balance at node 8......
+balances:
+- amount: "100000000000"
+  denom: samoleans
+- amount: "99994432734"
+  denom: stake
+pagination:
+  next_key: null
+  total: "0"
+getting relayer balance at node 9......
+balances:
+- amount: "100000000000"
+  denom: samoleans
+- amount: "99994791274"
+  denom: stake
+pagination:
+  next_key: null
+  total: "0"

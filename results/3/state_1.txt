@@ -1,0 +1,138 @@
+querying state for node 0...
+data:
+  InProgress:
+    state:
+      F: 0
+      chain_id: 0
+      channel_ids:
+      - channel-0
+      - channel-1
+      contract_addr: wasm14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9s0phg4d
+      current_tx_id: 0
+      done: null
+      done_block_height: null
+      done_executed: false
+      done_timestamp: null
+      key1: 0
+      key1_val:
+        binary: f
+        public_key: []
+        signature: []
+      key2: 0
+      key2_proofs: []
+      key2_val:
+        binary: f
+        public_key: []
+        signature: []
+      key3: 0
+      key3_val:
+        binary: f
+        public_key: []
+        signature: []
+      lock: 0
+      lock_val:
+        binary: f
+        public_key: []
+        signature: []
+      "n": 3
+      prev_key1: -1
+      prev_key2: -1
+      primary: 1
+      proofs: []
+      received_propose: false
+      sent: []
+      start_time: "1665705640896788850"
+      suggestions: []
+      view: 0
+querying state for node 1...
+data:
+  InProgress:
+    state:
+      F: 0
+      chain_id: 1
+      channel_ids:
+      - channel-0
+      - channel-1
+      contract_addr: wasm14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9s0phg4d
+      current_tx_id: 0
+      done: null
+      done_block_height: null
+      done_executed: false
+      done_timestamp: null
+      key1: 0
+      key1_val:
+        binary: f
+        public_key: []
+        signature: []
+      key2: 0
+      key2_proofs: []
+      key2_val:
+        binary: f
+        public_key: []
+        signature: []
+      key3: 0
+      key3_val:
+        binary: f
+        public_key: []
+        signature: []
+      lock: 0
+      lock_val:
+        binary: f
+        public_key: []
+        signature: []
+      "n": 3
+      prev_key1: -1
+      prev_key2: -1
+      primary: 1
+      proofs: []
+      received_propose: false
+      sent: []
+      start_time: "1665705642479445868"
+      suggestions: []
+      view: 0
+querying state for node 2...
+data:
+  InProgress:
+    state:
+      F: 0
+      chain_id: 2
+      channel_ids:
+      - channel-0
+      - channel-1
+      contract_addr: wasm14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9s0phg4d
+      current_tx_id: 0
+      done: null
+      done_block_height: null
+      done_executed: false
+      done_timestamp: null
+      key1: 0
+      key1_val:
+        binary: f
+        public_key: []
+        signature: []
+      key2: 0
+      key2_proofs: []
+      key2_val:
+        binary: f
+        public_key: []
+        signature: []
+      key3: 0
+      key3_val:
+        binary: f
+        public_key: []
+        signature: []
+      lock: 0
+      lock_val:
+        binary: f
+        public_key: []
+        signature: []
+      "n": 3
+      prev_key1: -1
+      prev_key2: -1
+      primary: 1
+      proofs: []
+      received_propose: false
+      sent: []
+      start_time: "1665705644069366932"
+      suggestions: []
+      view: 0

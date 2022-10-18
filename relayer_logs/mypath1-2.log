@@ -1,0 +1,3 @@
+ts=2022-10-18T03:38:18.826751Z lvl=info msg="Debug server listening" sys=debughttp addr=localhost:7512
+ts=2022-10-18T03:38:18.827142Z lvl=warn msg="Relayer start error" error="error querying all channels on chain{ibc-1}@connection{}: post failed: Post \"http://localhost:26551\": dial tcp 127.0.0.1:26551: connect: connection refused"
+Error: error querying all channels on chain{ibc-1}@connection{}: post failed: Post "http://localhost:26551": dial tcp 127.0.0.1:26551: connect: connection refused
